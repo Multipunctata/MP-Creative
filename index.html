@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet"> 
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!--Navigation-->
+
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class = "container">
+                <a class = "navbar-brand" href="#">Electrónica Martínez</a>
+                <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded = "false" aria-laberl = "Toggle navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+                <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+                    <ul class = "navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class = "nav-item">
+                            <a class = "nav-link active" href = "#header-1">Inicio</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "#info-one">Acerca</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "#contact">Contacto</a>
+                        </li>
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle" href="#" id = "navbarDropdown" role = "button" data-bs-toggle="dropdown" aria-expanded = "false"> Reparaciones
+                            </a>
+                            <ul class = "dropdown-menu" aria-labelledby = "navbarDropdown">
+                                <li><a class = "dropdown-item" href="#">Electrodomésticos</a></li>
+                                <li class = "dropdown-item">Televisores</li>
+                                <li><hr class = "dropdown-divider"></li>
+                                <li class = "dropdown-item">Altavoces</li>
+                                <li class = "dropdown-item">Auriculares</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <!--Header-->
+    <div  class = "invisible" id = "header-1">.</div>
+    <header id = "header">
+        <div class = "container mt-5">
+            <div class = "row">
+                <div class = "col-md-6">
+                    <div class = "header-content-left">
+                        <img src="img/image1.jpg" alt="Electrónica" style = "width: 90%;">
+                    </div>
+                </div>
+                <div class = "col-md-6 my-auto">
+                    <div class = "header-content-right">
+                        <h1 class = "display-4">Reparación</h1>
+                        <p class = "mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur animi accusamus sit, optio modi inventore error expedita repudiandae odio! Nulla ut maiores necessitatibus temporibus totam itaque omnis reiciendis at.</p>
+                        <a class = "btn btn-outline-secondary btn-lg" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Testimonial-->
+    <section id = "testimonial">
+        <div class = "container">
+            <p class = "h3 mb-2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborum eius voluptatem nesciunt ullam qui possimus facere saepe numquam repellendus!
+            </p>
+            <p class = "h4">- Fernando</p>
+        </div>
+    </section>
+
+    <!--Info One-->
+    <section id = "info-one">
+        <div class = "container">
+            <div class = "row mt-5">
+                <div class = "col-md-6">
+                    <div class = "info-left">
+                        <img src = "img/image2.png" alt = "Televisor" style = "width: 90%;">
+                    </div>
+                </div>
+                <div class = "col-md-6 my-auto">
+                    <div class = "info-right">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quasi, officia ipsum amet earum reiciendis blanditiis quo dolorum suscipit, dolore magni possimus maiores cupiditate porro facilis neque temporibus accusantium modi</p>
+                        <a class = "btn btn-outline-secondary btn-lg" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Info Two-->
+    <section id = "info-two" style = "background: #f1f1f1;">
+        <div class = "container">
+            <div class = "row my-5">
+                <div class = "col-md-6">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit similique voluptates labore, consequuntur fuga sapiente id necessitatibus nisi ea, molestias in? Tempore eum nisi quasi mollitia deserunt accusamus est?</p>
+                </div>
+                <div class = "col-md-6">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit similique voluptates labore, consequuntur fuga sapiente id necessitatibus nisi ea, molestias in? Tempore eum nisi quasi mollitia deserunt accusamus est?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id = "contact">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-5">
+                    <form class = "card my-4">
+                        <div class = "card-body">
+                            <div class = "form-group">
+                                <input class = "form-control" type="text" placeholder = "Name">
+                            </div>
+                            <div class = "form-group">
+                                <input class = "form-control" type="email" placeholder = "Email">
+                            </div>
+                            <div class = "form-group">
+                                <textarea class = "form-control" cols="30" rows="10" placeholder = "Message"></textarea>
+                            </div>
+                            <div class = "d-grid gap-2">
+                                <button  class = "btn btn-outline-secondary" type = "submit">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap Scripts-->
+    <script src = "js/jquery.min.js"></script>
+    <script src = "js/popper.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+    <!--Scripts-->
+    <script src = "js/scripts.js"></script>
+</body>
+</html>
